@@ -24,3 +24,5 @@ steps:
   - 'gcr.io/devfest2023-rv/devfest-rv/$_IMAGE_NAME:$COMMIT_SHA'
   - '--region'
   - 'us-central1'
+  - '--projeect'
+  - 'devfest2023-rv'
