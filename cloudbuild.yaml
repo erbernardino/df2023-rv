@@ -10,7 +10,7 @@ steps:
 
 # Push da imagem do container para o Container Registry
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/devfest2023-rv/devfest-rv:$COMMIT_SHA']
+  args: ['push', 'gcr.io/devfest2023-rv/devfest-rv/demo:$COMMIT_SHA']
 
 # Execucao do comando de publicacao no Google Cloud Run
 # neste passo que pode ser definido onde o código será publicado
@@ -21,6 +21,6 @@ steps:
   - 'deploy'
   - 'hello-rv'
   - '--image'
-  - 'gcr.io/devfest2023-rv/devfest-rv:$COMMIT_SHA'
+  - 'gcr.io/devfest2023-rv/devfest-rv/demo:$COMMIT_SHA'
   - '--region'
   - 'us-central1'
