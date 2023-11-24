@@ -5,7 +5,7 @@ steps:
 
 # Build da imagem Docker do projeto
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/devfest2023-rv/devfest-rv', '.']
+  args: ['build', '-t', 'gcr.io/devfest2023-rv/devfest-rv/demo:$COMMIT_SHA', '.']
 
 
 # Push da imagem do container para o Container Registry
