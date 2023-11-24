@@ -41,7 +41,7 @@ app.get('/', (req, res) => {
         <div class="content">
           <h1>Bem-vindo ao DevFest Rio Verde 2023!</h1>
           <p>Um evento incrível para entusiastas e profissionais de tecnologia.</p>
-          <button onclick="alert('Estamos animados para vê-lo lá!')">Clique para mais informações</button>
+          
         </div>
       </body>
     </html>
