@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
   res.send(`
     <html>
       <head>
-        <title>DevFest Rio Verde 2023</title>
+        <title>DevFest Rio Verde 2023 !!!!</title>
         <style>
           body {
             font-family: 'Arial', sans-serif;
